@@ -1,0 +1,9 @@
+To run code : 
+# make clean
+# make
+# make AB 
+or 
+#./ABwhguan input.txt 1
+
+To check memory leaking:
+valgrind --tool=memcheck --leak-check=full ./ABwhguan input.txt  1
